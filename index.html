@@ -45,7 +45,7 @@
         <section class="hero-section">
             <div class="container hero-container">
                 <h1 class="hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button class="order" type="button" data-modal>Заказать услугу</button>
+                <button class="order" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </section class="section">
 
@@ -105,16 +105,27 @@
                 <h2 class="section-name">Чем мы занимаемся</h2>
                 <ul class="activity list">
                     <li class="list-item">
-                        <img src="./images/pic-1.jpg" width="370" height="294"
-                                alt="десктопные приложения">
+                        <div class="activity-wraper">
+                            <img src="./images/pic-1.jpg" width="370" height="294"
+                                    alt="десктопные приложения">
+                                    <p class="activity-direction">десктопные приложения</p>
+                        </div>
                     </li>
                     <li class="list-item">
-                        <img src="./images/pic-2.jpg" width="370" height="294"
-                                alt="мобильные приложения">
+                        <div class="activity-wraper">
+                            <img src="./images/pic-2.jpg" width="370" height="294"
+                                    alt="мобильные приложения">
+                                    <p class="activity-direction">мобильные приложения</p>
+                        </div>
+
                     </li>
                     <li class="list-item">
-                        <img src="./images/pic-3.jpg" width="370" height="294"
-                                alt="дизайнерские решения">
+                        <div class="activity-wraper">
+                            <img src="./images/pic-3.jpg" width="370" height="294"
+                                    alt="дизайнерские решения">
+                                    <p class="activity-direction">дизайнерские решения</p>
+                        </div>
+
                     </li>
                 </ul>
             </div>
@@ -339,9 +350,9 @@
 
 <div class="backdrop" data-modal>
     <div class="modal">
-            <button type="button" class="modal-close">
-                <svg class="close-icon">
-                    <use href="./images/sprite-bw.svg#iconclose"></use>
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg class="modal-close-icon" >
+                    <use href="./images/sprite-bw.svg#iconclose" ></use>
                 </svg>
             </button>
     </div>
