@@ -625,7 +625,7 @@ fill: currentColor;
 }
 
 .nav-link {
-  display: block;
+  display: flex;
 }
 /* hw-5 */
 
